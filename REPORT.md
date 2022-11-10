@@ -34,3 +34,11 @@ git branch -D ci
 
 ![image](docs/3,1.png)
 ![image](docs/3,2.png)
+
+
+## Task 4
+
+```
+git blame prisma/seed.ts
+3c82961d (Nikolay Andreev 2021-12-20 00:28:11 +0300 32)      rating: game.age_rating_sorting_i
+```

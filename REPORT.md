@@ -42,3 +42,17 @@ git branch -D ci
 git blame prisma/seed.ts
 3c82961d (Nikolay Andreev 2021-12-20 00:28:11 +0300 32)      rating: game.age_rating_sorting_i
 ```
+
+
+## Task 5
+
+```
+npm install --save-dev jest
+git checkout master
+git bisect start
+git bisect bad
+git bisect good 
+npm run test
+```
+
+![image](docs/5.png)

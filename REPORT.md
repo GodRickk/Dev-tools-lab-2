@@ -120,6 +120,13 @@ git fsck
 git gc --prune=now --aggressive
 ```
 
-
 ![image](docs/910.png)
 
+
+## Task 10
+
+```
+git gc --prune=now --aggressive
+```
+
+![image](docs/910.png)

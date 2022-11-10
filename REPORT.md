@@ -91,3 +91,35 @@ fi
 ```
 
 ![image](docs/7.png)
+
+
+## Task 8
+
+```
+git checkout master
+git config rerere.enabled true
+git merge feature
+
+git add README.md
+git commit --no-edit
+git reset --hard HEAD~1
+git merge feature
+
+git add README.md
+git commit --no-edit
+```
+
+![image](docs/8.png)
+![image](docs/8.2.png)
+
+
+## Task 9
+
+```
+git fsck
+git gc --prune=now --aggressive
+```
+
+
+![image](docs/910.png)
+

@@ -24,3 +24,13 @@ git branch -D ci
 
 ![image](docs/2.png)
 
+
+## Task 3
+
+`git reflog`
+
+`git checkout aca3abb`
+`git branch old-master`
+
+![image](docs/3,1.png)
+![image](docs/3,2.png)

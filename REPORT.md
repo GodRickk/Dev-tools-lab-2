@@ -56,3 +56,14 @@ npm run test
 ```
 
 ![image](docs/5.png)
+
+
+## Task 6
+
+```
+git filter-branch --tree-filter "rm -f .env" -- --all
+echo .env >> .gitignore
+```
+
+
+![image](docs/6.png)

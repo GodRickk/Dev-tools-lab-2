@@ -130,3 +130,12 @@ git gc --prune=now --aggressive
 ```
 
 ![image](docs/910.png)
+
+
+## Task 11
+
+```
+git status
+git add REPORT.md
+git commit "feat: task n"
+```
